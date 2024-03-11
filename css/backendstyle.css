@@ -382,3 +382,8 @@ body {
     font-size: 10px;
     color: var(--black-opa-2);
 }
+@media (max-width: 991px) {
+    .main-bg {
+        padding-top: 80px;
+    }
+}

@@ -141,241 +141,243 @@
     <!-- Header Ends -->
 
     <!-- Navbar Begins -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-white">
-        <div class="container">
-            <a class="navbar-brand me-2" href="#">ADXpress</a>
-            <div class="main-search ms-auto d-lg-flex d-none">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="form-search-input">
-                    <button class="btn btn-outline-success text-uppercase" type="submit">Search</button>
-                </form>
-            </div>
-            <ul class="d-flex list-unstyled mt-2 ms-auto">
-                <li class=" nav-item dropdown">
-                    <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-person fw-700 pe-1"></i>
-                        <span class="d-sm-inline-block d-none">Account</span>
-                    </a>
-                    <ul class="dropdown-menu p-2" id="drop-menu">
-                      <li><a class="dropdown-item" href="#">My account</a></li>
-                      <li><a class="dropdown-item" href="#">Sell on ADXpress</a></li>
-                      <li><a class="dropdown-item" href="#">Orders</a></li>
-                      <li><a class="dropdown-item" href="#">Saved Items</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item shadow" id="drop-btn" href="login.html">Sign In</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item ">
-                    <a class="" href="#">
-                        <i class="bi bi-cart4 fw-700 pe-1"></i>
-                        <span class="d-sm-inline-block d-none">Cart</span>
-                    </a>
-                </li>
-                <li class=" nav-item dropdown d-sm-inline-block d-none">
-                    <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-question fw-700 pe-1 d-lg-inline-block d-none"></i>
-                        <span class="">Help</span>
-                    </a>
-                    <ul class="dropdown-menu p-2" id="drop-menu">
-                        <li><a class="dropdown-item" href="#">Help center</a></li>
-                        <li><a class="dropdown-item" href="#">Place an order</a></li>
-                        <li><a class="dropdown-item" href="#">Payment options</a></li>
-                        <li><a class="dropdown-item" href="#">Tracking order</a></li>
-                        <li><a class="dropdown-item" href="#">Cancel an order</a></li>
-                        <li><a class="dropdown-item" href="#">Returns and refunds</a></li>
-                        <li><a class="dropdown-item" href="#">How to sell on ADXpress</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item ">
-                    <a class="offcanvas-btn" href="#">
-                        <i class="bi bi-justify-right fw-700 pe-1"></i>
-                        <span class="d-sm-inline-block d-none">Category</span>
-                    </a>
-                </li>
-            </ul>
-            <br>
-            <div class="search-div d-lg-none d-block">
-                <form class="my-2 d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="form-search-input">
-                    <button class="btn btn-outline-success text-uppercase" type="submit">
-                        <i class="bi bi-search fw-700"></i>
-                    </button>
-                </form>
-            </div>
-            <div class="offcanvas-bg" id="offcanvas-btn">
-                <div class="offcanvas-main-bg">
-                    <div class="d-flex align-items-center mb-3">
-                        <span class="offcanvas-btn"><i style="font-size: var(--fs-5);" class="bi bi-x me-3 fw-700"></i></span>
-                        <a class="navbar-brand me-2" href="#">ADXpress</a>
-                    </div>
-                    <ul class="offcanvas-content list-unstyled px-3">
-                        <div class="d-sm-none d-block">
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span>Help</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </spa>
-                            </li>
-                            <ul class="drop-toggle-menu list-unstyled ps-4 list-group list-group show">
-                                <li>
-                                    <a href="">Help center</a>
-                                </li>
-                                <li>
-                                    <a href="">Place an order</a>
-                                </li>
-                                <li>
-                                    <a href="">Payment options</a>
-                                </li>
-                                <li>
-                                    <a href="">Tracking order</a>
-                                </li>
-                                <li>
-                                    <a href="">Cancel an order</a>
-                                </li>
-                                <li>
-                                    <a href="">Returns and refunds</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <hr class="my-2 d-sm-none d-block">
-                        <h5 class="fw-700 py-2 mt-2 mb-3">Categories </h5>
-                        <div class="d-block">
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-apple-whole me-2"></i>Supermarket</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-blender me-2"></i>Appliances</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="bi bi-house-door me-2 fw-700"></i>Office & Home</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="bi bi-phone me-2 fw-700"></i>Phones & Mobile Devices</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="bi bi-display me-2 fw-700"></i>Computing Devices</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-spray-can-sparkles me-2"></i>Health & Beauty</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-shirt me-2"></i>Fashion Products</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="bi bi-tv me-2 fw-700"></i>Electronics</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-baby me-2"></i>Baby Products</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="bi bi-controller me-2 fw-700"></i>Gaming devices</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-dumbbell me-2"></i>Sport Kits, kicks & Products</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-gamepad me-2"></i>Toys & Games</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-guitar me-2"></i>Musical instruments</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-flask-vial me-2"></i>Industrial & Scientific</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-trowel me-2"></i>Garden & Outdoors</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span><i class="fa-solid fa-dog me-2"></i>Pet provisions</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu"></ul>
-                        </div>
-                        <hr class="my-2 d-lg-none d-block">
-                        <div class="d-lg-none d-block head-service-div">
-                            <li class="mb-1">
-                                <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
-                                    <span>Services</span>
-                                    <i class="bi bi-chevron-down ms-auto"></i>
-                                </span>
-                            </li>
-                            <ul class="drop-toggle-menu show list-unstyled ps-4 list-group list-group">
-                                <li>
-                                    <a href="#" class="head-service me-2">ADXpress</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="head-service me-2">ADXPAY</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </ul>
+    <section class="sticky-top py-lg-0 py-3 bg-white">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand me-2" href="#">ADXpress</a>
+                <div class="main-search ms-auto d-lg-flex d-none">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="form-search-input">
+                        <button class="btn btn-outline-success text-uppercase" type="submit">Search</button>
+                    </form>
                 </div>
-                <div class="offcanvas-btn offcanvas-trans-side"></div>
+                <ul class="d-flex list-unstyled mt-2 ms-auto">
+                    <li class=" nav-item dropdown">
+                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person fw-700 pe-1"></i>
+                            <span class="d-sm-inline-block d-none">Account</span>
+                        </a>
+                        <ul class="dropdown-menu p-2" id="drop-menu">
+                        <li><a class="dropdown-item" href="#">My account</a></li>
+                        <li><a class="dropdown-item" href="#">Sell on ADXpress</a></li>
+                        <li><a class="dropdown-item" href="#">Orders</a></li>
+                        <li><a class="dropdown-item" href="#">Saved Items</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item shadow" id="drop-btn" href="login.html">Sign In</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="" href="#">
+                            <i class="bi bi-cart4 fw-700 pe-1"></i>
+                            <span class="d-sm-inline-block d-none">Cart</span>
+                        </a>
+                    </li>
+                    <li class=" nav-item dropdown d-sm-inline-block d-none">
+                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-question fw-700 pe-1 d-lg-inline-block d-none"></i>
+                            <span class="">Help</span>
+                        </a>
+                        <ul class="dropdown-menu p-2" id="drop-menu">
+                            <li><a class="dropdown-item" href="#">Help center</a></li>
+                            <li><a class="dropdown-item" href="#">Place an order</a></li>
+                            <li><a class="dropdown-item" href="#">Payment options</a></li>
+                            <li><a class="dropdown-item" href="#">Tracking order</a></li>
+                            <li><a class="dropdown-item" href="#">Cancel an order</a></li>
+                            <li><a class="dropdown-item" href="#">Returns and refunds</a></li>
+                            <li><a class="dropdown-item" href="#">How to sell on ADXpress</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="offcanvas-btn" href="#">
+                            <i class="bi bi-justify-right fw-700 pe-1"></i>
+                            <span class="d-sm-inline-block d-none">Category</span>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <div class="search-div d-lg-none d-block">
+                    <form class="my-2 d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="form-search-input">
+                        <button class="btn btn-outline-success text-uppercase" type="submit">
+                            <i class="bi bi-search fw-700"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="offcanvas-bg" id="offcanvas-btn">
+                    <div class="offcanvas-main-bg">
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="offcanvas-btn"><i style="font-size: var(--fs-5);" class="bi bi-x me-3 fw-700"></i></span>
+                            <a class="navbar-brand me-2" href="#">ADXpress</a>
+                        </div>
+                        <ul class="offcanvas-content list-unstyled px-3">
+                            <div class="d-sm-none d-block">
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span>Help</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </spa>
+                                </li>
+                                <ul class="drop-toggle-menu list-unstyled ps-4 list-group list-group show">
+                                    <li>
+                                        <a href="">Help center</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Place an order</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Payment options</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Tracking order</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Cancel an order</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Returns and refunds</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="my-2 d-sm-none d-block">
+                            <h5 class="fw-700 py-2 mt-2 mb-3">Categories </h5>
+                            <div class="d-block">
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-apple-whole me-2"></i>Supermarket</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-blender me-2"></i>Appliances</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="bi bi-house-door me-2 fw-700"></i>Office & Home</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="bi bi-phone me-2 fw-700"></i>Phones & Mobile Devices</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="bi bi-display me-2 fw-700"></i>Computing Devices</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-spray-can-sparkles me-2"></i>Health & Beauty</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-shirt me-2"></i>Fashion Products</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="bi bi-tv me-2 fw-700"></i>Electronics</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-baby me-2"></i>Baby Products</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="bi bi-controller me-2 fw-700"></i>Gaming devices</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-dumbbell me-2"></i>Sport Kits, kicks & Products</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-gamepad me-2"></i>Toys & Games</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-guitar me-2"></i>Musical instruments</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-flask-vial me-2"></i>Industrial & Scientific</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-trowel me-2"></i>Garden & Outdoors</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span><i class="fa-solid fa-dog me-2"></i>Pet provisions</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu"></ul>
+                            </div>
+                            <hr class="my-2 d-lg-none d-block">
+                            <div class="d-lg-none d-block head-service-div">
+                                <li class="mb-1">
+                                    <span href="" class="d-flex align-items-center" id="drop-toggle-btn">
+                                        <span>Services</span>
+                                        <i class="bi bi-chevron-down ms-auto"></i>
+                                    </span>
+                                </li>
+                                <ul class="drop-toggle-menu show list-unstyled ps-4 list-group list-group">
+                                    <li>
+                                        <a href="#" class="head-service me-2">ADXpress</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="head-service me-2">ADXPAY</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="offcanvas-btn offcanvas-trans-side"></div>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
     <!-- Navbar Ends -->
 
     <!-- Carousel Section Begins -->
